@@ -69,10 +69,10 @@ MarketLens/
 - [x] Phase 15 — AI Business Analyst
 - [x] Phase 16 — Streamlit Dashboard
 - [x] Phase 17 — Testing
-- [ ] Phase 18 — Executive Report
-- [ ] Phase 19 — Client Presentation
-- [ ] Phase 20 — README + GitHub
-- [ ] Phase 21 — Complete End-to-End Test
+- [x] Phase 18 — Executive Report
+- [x] Phase 19 — Client Presentation
+- [x] Phase 20 — README + GitHub
+- [x] Phase 21 — Complete End-to-End Test
 
 ## The Business Case (Phase 02)
 
@@ -702,6 +702,10 @@ it. Every answer follows: Finding / Evidence / Possible Causes / Confidence
   `OPENAI_MODEL`, default `gpt-4o-mini`)
 - `LLM_PROVIDER=gemini` → uses `GEMINI_API_KEY` (model configurable via
   `GEMINI_MODEL`, default `gemini-1.5-flash`)
+- `LLM_PROVIDER=grok` → uses `GROK_API_KEY` via Groq's OpenAI-compatible
+  endpoint (model configurable via `GROK_MODEL`, default
+  `openai/gpt-oss-120b`)
+
 
 Both SDKs are imported lazily, only inside the code path that actually
 calls that provider, so the module doesn't hard-fail if only one SDK is
@@ -709,7 +713,11 @@ installed.
 
 **Sandbox honesty note** (same pattern as Postgres/R/Faker in earlier
 phases): this sandbox has no internet access, so no real OpenAI/Gemini API
-call can be executed here. When no reachable provider/key is found,
+call can be executed here. **Update:** this was verified live *outside* the
+sandbox using Groq's OpenAI-compatible API (`openai/gpt-oss-120b`),
+producing a real, evidence-grounded answer with the numeric grounding
+check flagging minor formatting mismatches as designed. When no reachable
+provider/key is found,
 `llm_provider.py` falls back to a deterministic **offline mode**, and
 `ai_business_analyst.py`'s `compose_offline_answer()` builds a genuine,
 evidence-only answer by keyword-scoring the question against every causal
