@@ -1,4 +1,4 @@
-# MarketLens
+﻿# MarketLens
 
 **AI-Powered Business Growth & Decision Intelligence Platform**
 
@@ -27,7 +27,7 @@ multi-location retail/e-commerce company. It answers:
 | Dashboard | Streamlit + Plotly |
 | Financial model | Excel (.xlsx) |
 | External data | Public APIs / research |
-| LLM | OpenAI / Gemini |
+| LLM | OpenAI / Gemini / Groq |
 | Testing | Pytest |
 | Docs | Markdown |
 | Version control | Git/GitHub |
@@ -833,5 +833,8 @@ will launch the real, interactive app — no code changes needed.
 
 Next: **Phase 17 — Testing** (`tests/` — data integrity, analytics,
 ML, and scenario-calculation tests with `pytest`).
+
+
+
 
 
