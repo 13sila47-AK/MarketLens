@@ -1,0 +1,200 @@
+{
+  "revenue_deceleration": {
+    "revenue_2023": 164302526.29,
+    "revenue_2024": 324941413.63,
+    "revenue_2025": 367924999.78,
+    "yoy_growth_2023_to_2024_pct": 97.77,
+    "yoy_growth_2024_to_2025_pct": 13.23,
+    "gross_margin_pct_2023": 34.29,
+    "gross_margin_pct_2025": 29.47,
+    "discount_rate_pct_2023": 7.04,
+    "discount_rate_pct_2025": 13.44,
+    "return_rate_pct_2023": 5.22,
+    "return_rate_pct_2025": 7.18,
+    "source": "data/processed/kpi_margin_trend_yoy.csv (Phase 07)"
+  },
+  "regional_divergence": {
+    "regions": {
+      "Central": {
+        "yoy_growth_2025_pct": 21.59,
+        "gross_margin_pct": 31.36,
+        "gross_revenue": 153314892.37,
+        "pct_of_total_revenue": 17.89
+      },
+      "East": {
+        "yoy_growth_2025_pct": 15.83,
+        "gross_margin_pct": 31.41,
+        "gross_revenue": 180647263.68,
+        "pct_of_total_revenue": 21.07
+      },
+      "North": {
+        "yoy_growth_2025_pct": 31.25,
+        "gross_margin_pct": 31.16,
+        "gross_revenue": 289678811.39,
+        "pct_of_total_revenue": 33.79
+      },
+      "South": {
+        "yoy_growth_2025_pct": -24.7,
+        "gross_margin_pct": 31.84,
+        "gross_revenue": 117583767.87,
+        "pct_of_total_revenue": 13.72
+      },
+      "West": {
+        "yoy_growth_2025_pct": -1.26,
+        "gross_margin_pct": 31.54,
+        "gross_revenue": 115944204.39,
+        "pct_of_total_revenue": 13.53
+      }
+    },
+    "source": "data/processed/kpi_revenue_by_region_trend.csv, kpi_profitability_by_region.csv, kpi_revenue_by_region.csv (Phase 07)"
+  },
+  "retention_trend": {
+    "monthly_retention_start_pct": 13.96,
+    "monthly_retention_recent_pct": 11.98,
+    "trend_slope_pp_per_month": -0.1482,
+    "trend_p_value": 9.49e-12,
+    "trend_r_squared": 0.76,
+    "source": "reports/statistical_analysis_report.md (Phase 08, Section 1)"
+  },
+  "revenue_deceleration_stat": {
+    "quadratic_t2_coefficient": -0.00299,
+    "p_value": 6.69e-11,
+    "r_squared": 0.9,
+    "source": "reports/statistical_analysis_report.md (Phase 08, Section 1)"
+  },
+  "discount_margin_effect": {
+    "high_discount_tier_margin_pct": 28.9,
+    "low_discount_tier_margin_pct": 35.61,
+    "high_discount_tier_threshold_pct": 13.48,
+    "low_discount_tier_threshold_pct": 8.57,
+    "welch_t_p_value": "< 1e-300",
+    "source": "reports/statistical_analysis_report.md (Phase 08, Section 3)"
+  },
+  "south_margin_finding": {
+    "regional_margin_anova_p": 1.97e-10,
+    "regional_margin_effect_size": "small (~0.6-0.7pp spread)",
+    "south_per_order_margin_pct": 32.68,
+    "lowest_region_margin_pct": 32.03,
+    "conclusion": "South has the HIGHEST per-order margin of any region -- its revenue decline is a volume/demand problem, not a pricing/margin problem.",
+    "source": "reports/statistical_analysis_report.md (Phase 08, Section 3)"
+  },
+  "churn_model_findings": {
+    "training_churn_rate_pct": 81.3,
+    "model_auc": 0.6753,
+    "top_features": [
+      "region_South (+)",
+      "total_orders (-)",
+      "tenure_days (+)"
+    ],
+    "high_risk_customers": 13747,
+    "high_risk_clv_total": 293201371.29,
+    "high_risk_clv_pct_of_total": 36.5,
+    "priority_segment_customers": 8674,
+    "priority_segment_clv": 335678884.57,
+    "priority_segment_clv_pct": 41.8,
+    "source": "reports/churn_model_report.md (Phase 09)"
+  },
+  "external_benchmark": {
+    "india_ecommerce_cagr_pct": "~11.45",
+    "urbancart_overall_growth_2025_pct": 13.0,
+    "north_growth_vs_market": "well above market (+31.25% vs ~11-13%)",
+    "central_growth_vs_market": "well above market (+21.59% vs ~11-13%)",
+    "south_growth_vs_market": "far below market (-24.7% vs ~11-13%) -- company-specific, not market contraction",
+    "west_growth_vs_market": "below market (-1.26% vs ~11-13%) -- flattened, not growing with the category",
+    "source": "research/industry_analysis.md, research/competitor_analysis.md (Phase 10)"
+  },
+  "financial_baseline": {
+    "fy2025_net_profit": 40691374.24,
+    "fy2025_net_margin_pct": 11.06,
+    "fy2025_gross_margin_pct": 29.47,
+    "source": "excel/business_model.xlsx (Phase 11)"
+  },
+  "scenario_evidence": {
+    "retention_5pp_incremental_value": 13680404.1,
+    "discount_2pp_incremental_value": 8501039.74,
+    "marketing_25pct_incremental_value": -595803.41,
+    "ranking": "Retention +5pp > Discount -2pp > Marketing +25%",
+    "interpretation": "Fixing retention is worth more than fixing discounting, and both are worth more than spending more on marketing -- reinforcing that this is a retention/execution problem, not a demand-generation problem.",
+    "source": "reports/scenario_analysis_report.md (Phase 12)"
+  },
+  "causal_chain": [
+    {
+      "step": 1,
+      "finding": "Company revenue growth is decelerating, not reversing.",
+      "evidence": "+98% YoY (2023->2024) slowing to +13% YoY (2024->2025); statistically confirmed deceleration, not just early-stage base effects (quadratic trend p=6.7e-11).",
+      "sources": [
+        "data/processed/kpi_margin_trend_yoy.csv (Phase 07)",
+        "reports/statistical_analysis_report.md (Phase 08, Section 1)"
+      ]
+    },
+    {
+      "step": 2,
+      "finding": "The deceleration is a regional mix problem, not a market-wide one.",
+      "evidence": "North (+31.3%) and Central (+21.6%) are growing well above the ~11-13% Indian e-commerce/retail benchmark; South (-24.7%) and West (-1.3%) are badly underperforming that same benchmark. Since the market itself grew at a normal rate, South/West's declines are company-specific execution issues, not a shrinking category.",
+      "sources": [
+        "data/processed/kpi_revenue_by_region_trend.csv, kpi_profitability_by_region.csv, kpi_revenue_by_region.csv (Phase 07)",
+        "research/industry_analysis.md, research/competitor_analysis.md (Phase 10)"
+      ]
+    },
+    {
+      "step": 3,
+      "finding": "South's problem is volume/demand, not pricing -- it has the best per-order margin in the company.",
+      "evidence": "South's per-order margin (32.68%) is the HIGHEST of any region (North lowest at 32.03%), though the regional spread is small (~0.6-0.7pp). Combined with churn modeling where region_South is the single strongest positive churn predictor, South looks like a traffic/retention execution gap, not a pricing problem that discounting more could fix.",
+      "sources": [
+        "reports/statistical_analysis_report.md (Phase 08, Section 3)",
+        "reports/churn_model_report.md (Phase 09)"
+      ]
+    },
+    {
+      "step": 4,
+      "finding": "Underneath the regional story, repeat-purchase behavior is weakening company-wide.",
+      "evidence": "Monthly customer retention fell from 13.96% to 11.98% over the tracked period, a statistically real decline (p=9.5e-12, R\u00b2=0.76), not noise. The churn model independently found 81.3% of the training cohort made no repeat purchase within 90 days.",
+      "sources": [
+        "reports/statistical_analysis_report.md (Phase 08, Section 1)",
+        "reports/churn_model_report.md (Phase 09)"
+      ]
+    },
+    {
+      "step": 5,
+      "finding": "Margin compression compounds the revenue slowdown: heavier discounting has materially eroded profitability.",
+      "evidence": "Gross margin fell from 34.29% (2023) to 29.47% (2025) as discount rate rose from 7.04% to 13.44% of order value. This is a real, material effect, not a coincidence: high-discount orders average 28.9% margin vs 35.61% for low-discount orders (p < 1e-300).",
+      "sources": [
+        "data/processed/kpi_margin_trend_yoy.csv (Phase 07)",
+        "reports/statistical_analysis_report.md (Phase 08, Section 3)"
+      ]
+    },
+    {
+      "step": 6,
+      "finding": "Returns are rising too, adding a second (smaller) drag on margin.",
+      "evidence": "Return rate rose from 5.22% to 7.18% of order value over the same period. Note: return_rate alone is a weak/confounded signal of customer value (Phase 08 correlation test sign-flipped between Pearson and Spearman), so this is best read as a margin drag, not an independent churn predictor.",
+      "sources": [
+        "data/processed/kpi_margin_trend_yoy.csv (Phase 07)",
+        "reports/statistical_analysis_report.md (Phase 08, Section 2)"
+      ]
+    },
+    {
+      "step": 7,
+      "finding": "The financial exposure is concentrated: a specific customer segment holds most of the value at risk.",
+      "evidence": "8,674 customers classified High Value + High Risk hold Rs 335,678,885 (41.8% of all customer value) -- under a third of the customer base carries the largest single share of value that retention efforts could protect.",
+      "sources": [
+        "reports/churn_model_report.md (Phase 09)"
+      ]
+    },
+    {
+      "step": 8,
+      "finding": "Net result: profitability has compressed to single-digit-adjacent net margin.",
+      "evidence": "FY2025 net margin stands at 11.06% (net profit Rs 40,691,374 on gross margin 29.47%) -- the combined effect of steps 1-7.",
+      "sources": [
+        "excel/business_model.xlsx (Phase 11)"
+      ]
+    },
+    {
+      "step": 9,
+      "finding": "Scenario testing independently confirms retention, not marketing spend, is the highest-leverage fix.",
+      "evidence": "Modeled incremental annual profit: Retention +5pp = Rs 13,680,404; Discount -2pp = Rs 8,501,040; Marketing +25% = Rs -595,803 (essentially break-even, consistent with Phase 08's finding that marketing spend does not statistically predict performance at this sample size).",
+      "sources": [
+        "reports/scenario_analysis_report.md (Phase 12)"
+      ]
+    }
+  ]
+}

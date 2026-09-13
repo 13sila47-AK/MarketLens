@@ -1,0 +1,7 @@
+customer_segment,customers,total_revenue,avg_clv,avg_orders,avg_return_rate,pct_of_customers
+Churned,17030,438776306.62,24226.44,2.46,0.1418,37.84
+At-Risk,5210,170304920.67,30523.82,3.2,0.1632,11.58
+Loyal,1833,132766378.38,67803.99,7.02,0.1536,4.07
+Regular,3417,97212864.0,26435.06,2.8,0.1667,7.59
+New,1850,18108470.03,9112.1,1.0,0.1605,4.11
+Never Purchased,15660,0.0,0.0,0.0,0.0,34.8

@@ -1,0 +1,19 @@
+store_id,store_name,region_id
+1,UrbanCart North #1,1
+2,UrbanCart North #2,1
+3,UrbanCart North #3,1
+4,UrbanCart North #4,1
+5,UrbanCart South #1,2
+6,UrbanCart South #2,2
+7,UrbanCart South #3,2
+8,UrbanCart East #1,3
+9,UrbanCart East #2,3
+10,UrbanCart East #3,3
+11,UrbanCart East #4,3
+12,UrbanCart West #1,4
+13,UrbanCart West #2,4
+14,UrbanCart West #3,4
+15,UrbanCart Central #1,5
+16,UrbanCart Central #2,5
+17,UrbanCart Central #3,5
+18,UrbanCart Central #4,5

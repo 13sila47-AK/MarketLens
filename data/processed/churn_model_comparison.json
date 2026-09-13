@@ -1,0 +1,58 @@
+{
+  "results": {
+    "logistic_regression": {
+      "accuracy": 0.613,
+      "precision": 0.8782,
+      "recall": 0.6083,
+      "f1": 0.7187,
+      "roc_auc": 0.6753,
+      "confusion_matrix": [
+        [
+          579,
+          335
+        ],
+        [
+          1556,
+          2416
+        ]
+      ]
+    },
+    "random_forest": {
+      "accuracy": 0.6515,
+      "precision": 0.8699,
+      "recall": 0.6717,
+      "f1": 0.7581,
+      "roc_auc": 0.668,
+      "confusion_matrix": [
+        [
+          515,
+          399
+        ],
+        [
+          1304,
+          2668
+        ]
+      ]
+    }
+  },
+  "best_model": "logistic_regression",
+  "feature_importance": {
+    "region_South": 0.7244,
+    "total_orders": -0.4792,
+    "tenure_days": 0.472,
+    "region_North": -0.4161,
+    "region_Central": -0.3028,
+    "region_West": 0.2508,
+    "total_gross_revenue": 0.1553,
+    "region_East": -0.084,
+    "avg_order_value": -0.0618,
+    "days_since_last_purchase": 0.0378,
+    "discount_usage": 0.0358,
+    "online_share": -0.0327,
+    "purchase_frequency": -0.0131,
+    "return_rate": 0.0008
+  },
+  "n_train": 19541,
+  "n_test": 4886,
+  "class_balance_train_churn_rate": 0.813
+}

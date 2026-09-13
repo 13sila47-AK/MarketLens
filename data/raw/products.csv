@@ -1,0 +1,151 @@
+product_id,product_name,category,cost,selling_price
+1,Essential Dress,Apparel,1573.81,2799.26
+2,Comfort Dress,Apparel,1616.94,2561.84
+3,Comfort Tee,Apparel,1359.86,2759.53
+4,Premium Dress,Apparel,1034.32,1796.2
+5,Comfort Jacket,Apparel,1163.12,2395.98
+6,Signature Tee,Apparel,595.38,1104.44
+7,Premium Shirt,Apparel,1553.02,2965.66
+8,Essential Dress,Apparel,683.35,1499.03
+9,Urban Jacket,Apparel,1718.94,2812.99
+10,Lite Shirt,Apparel,331.73,535.79
+11,Essential Hoodie,Apparel,1236.54,2708.76
+12,Lite Hoodie,Apparel,861.06,1548.43
+13,Urban Hoodie,Apparel,445.42,802.76
+14,Premium Shirt,Apparel,1393.16,2476.42
+15,Lite Shirt,Apparel,1510.43,2570.82
+16,Signature Hoodie,Apparel,1657.27,2894.77
+17,Signature Hoodie,Apparel,1564.91,2515.74
+18,Lite Trousers,Apparel,208.29,422.82
+19,Comfort Jacket,Apparel,1277.11,2586.01
+20,Everyday Tee,Apparel,1345.54,2163.1
+21,Signature Trousers,Apparel,1373.92,2472.05
+22,Comfort Trousers,Apparel,1449.65,2771.5
+23,Pro Tee,Apparel,1257.1,2133.54
+24,Everyday Jacket,Apparel,1064.71,1753.82
+25,Signature Tee,Apparel,1837.11,3045.55
+26,Essential Trousers,Apparel,752.28,1272.29
+27,Active Trousers,Apparel,1048.98,2126.8
+28,Urban Hoodie,Apparel,808.65,1659.8
+29,Lite Shirt,Apparel,297.29,470.41
+30,Active Trousers,Apparel,1131.6,1831.82
+31,Essential Jacket,Apparel,445.45,872.17
+32,Pro Trousers,Apparel,932.41,1581.17
+33,Urban Tee,Apparel,962.38,1521.62
+34,Essential Shirt,Apparel,1583.68,3381.88
+35,Everyday Shirt,Apparel,558.44,1224.2
+36,Lite Hoodie,Apparel,1468.86,2622.36
+37,Premium Jacket,Apparel,328.08,698.81
+38,Signature Trousers,Apparel,604.9,1027.33
+39,Classic Shirt,Apparel,453.79,948.0
+40,Urban Trousers,Apparel,1482.41,2630.34
+41,Pro Cushion,Home Goods,2068.85,3629.36
+42,Premium Organizer,Home Goods,1846.85,2670.1
+43,Pro Cushion,Home Goods,1463.13,2180.21
+44,Everyday Curtain,Home Goods,2430.18,3649.57
+45,Pro Cookware Set,Home Goods,2277.85,3612.05
+46,Essential Organizer,Home Goods,218.55,429.98
+47,Everyday Organizer,Home Goods,3254.33,4761.59
+48,Premium Cookware Set,Home Goods,1587.03,3097.03
+49,Active Lamp,Home Goods,1939.1,2998.89
+50,Everyday Cushion,Home Goods,2000.62,3267.83
+51,Comfort Cushion,Home Goods,2608.97,5009.86
+52,Pro Rug,Home Goods,2345.52,3458.01
+53,Lite Rug,Home Goods,1081.14,1903.03
+54,Pro Curtain,Home Goods,3176.03,4681.29
+55,Premium Cookware Set,Home Goods,1116.49,1612.22
+56,Essential Rug,Home Goods,1289.32,2414.26
+57,Pro Lamp,Home Goods,1073.7,2107.69
+58,Active Curtain,Home Goods,2099.43,3235.83
+59,Everyday Organizer,Home Goods,855.66,1238.26
+60,Classic Rug,Home Goods,3107.32,5956.54
+61,Premium Cookware Set,Home Goods,2803.36,5377.52
+62,Urban Cookware Set,Home Goods,1146.19,2100.8
+63,Lite Rug,Home Goods,1654.99,2429.85
+64,Active Lamp,Home Goods,920.71,1796.02
+65,Signature Cushion,Home Goods,533.63,999.72
+66,Lite Curtain,Home Goods,766.82,1321.83
+67,Active Rug,Home Goods,905.66,1419.68
+68,Essential Cushion,Home Goods,3502.78,5839.41
+69,Everyday Cushion,Home Goods,248.18,379.44
+70,Everyday Cookware Set,Home Goods,2812.43,4162.65
+71,Essential Lamp,Home Goods,2485.31,4257.3
+72,Classic Rug,Home Goods,2719.72,4883.51
+73,Comfort Curtain,Home Goods,707.01,1047.03
+74,Premium Organizer,Home Goods,1641.88,2566.2
+75,Comfort Lamp,Home Goods,2075.36,4078.33
+76,Comfort Cable,Electronics Accessories,3323.57,4180.44
+77,Lite Earbuds,Electronics Accessories,2293.15,2944.39
+78,Premium Cable,Electronics Accessories,1232.46,2031.24
+79,Essential Power Bank,Electronics Accessories,2694.15,4215.35
+80,Pro Earbuds,Electronics Accessories,2855.4,3585.24
+81,Essential Charger,Electronics Accessories,2418.45,3775.07
+82,Active Stand,Electronics Accessories,1700.91,2505.77
+83,Premium Power Bank,Electronics Accessories,2018.44,2813.21
+84,Active Stand,Electronics Accessories,1379.4,2060.0
+85,Everyday Charger,Electronics Accessories,1635.24,2179.06
+86,Active Earbuds,Electronics Accessories,2177.82,3420.56
+87,Urban Earbuds,Electronics Accessories,362.95,532.88
+88,Active Earbuds,Electronics Accessories,2770.81,3754.82
+89,Premium Charger,Electronics Accessories,3193.44,4164.12
+90,Comfort Earbuds,Electronics Accessories,701.43,902.86
+91,Signature Earbuds,Electronics Accessories,371.39,485.43
+92,Signature Power Bank,Electronics Accessories,1833.81,2762.36
+93,Lite Stand,Electronics Accessories,1119.57,1601.46
+94,Essential Charger,Electronics Accessories,3060.22,3867.31
+95,Pro Cable,Electronics Accessories,942.28,1256.17
+96,Classic Power Bank,Electronics Accessories,1595.41,2019.12
+97,Classic Stand,Electronics Accessories,1930.41,2475.95
+98,Pro Earbuds,Electronics Accessories,289.58,470.84
+99,Everyday Stand,Electronics Accessories,2375.78,3835.19
+100,Pro Cable,Electronics Accessories,2356.53,3658.61
+101,Signature Cable,Electronics Accessories,2752.76,3560.73
+102,Signature Power Bank,Electronics Accessories,1530.65,2435.45
+103,Everyday Charger,Electronics Accessories,1267.98,1886.63
+104,Premium Power Bank,Electronics Accessories,594.55,844.02
+105,Comfort Power Bank,Electronics Accessories,899.71,1238.42
+106,Premium Serum,Personal Care,361.83,690.37
+107,Pro Kit Refill,Personal Care,262.48,639.85
+108,Essential Kit,Personal Care,504.14,943.5
+109,Everyday Serum,Personal Care,727.75,1550.12
+110,Classic Shampoo,Personal Care,487.14,1028.99
+111,Comfort Serum,Personal Care,762.38,1362.57
+112,Active Kit,Personal Care,900.63,1570.19
+113,Comfort Lotion,Personal Care,139.6,306.91
+114,Active Kit Refill,Personal Care,970.02,1694.3
+115,Essential Serum,Personal Care,708.16,1471.46
+116,Classic Shampoo,Personal Care,600.56,1461.94
+117,Comfort Kit,Personal Care,652.82,1123.63
+118,Classic Kit,Personal Care,210.7,432.63
+119,Lite Serum,Personal Care,455.28,918.88
+120,Everyday Kit,Personal Care,736.68,1468.75
+121,Lite Lotion,Personal Care,971.54,1686.54
+122,Lite Trimmer,Personal Care,138.05,294.72
+123,Lite Trimmer,Personal Care,664.92,1427.63
+124,Pro Shampoo,Personal Care,730.44,1632.3
+125,Urban Lotion,Personal Care,403.33,750.92
+126,Comfort Trimmer,Personal Care,162.57,393.84
+127,Premium Kit,Personal Care,355.3,782.48
+128,Pro Trimmer,Personal Care,752.31,1694.63
+129,Classic Serum,Personal Care,310.46,770.99
+130,Everyday Kit Refill,Personal Care,990.94,1719.47
+131,Essential Boot,Footwear,2563.45,3794.25
+132,Classic Boot,Footwear,2807.35,4024.65
+133,Active Boot,Footwear,2999.15,4679.38
+134,Comfort Running Shoe,Footwear,1841.37,2878.88
+135,Urban Running Shoe,Footwear,3031.54,4472.08
+136,Lite Running Shoe,Footwear,3172.51,4932.24
+137,Classic Loafer,Footwear,650.32,1300.17
+138,Pro Running Shoe,Footwear,2629.17,3855.59
+139,Essential Sneaker,Footwear,610.31,936.3
+140,Classic Running Shoe,Footwear,2939.13,4450.81
+141,Classic Sneaker,Footwear,2691.03,3884.46
+142,Active Running Shoe,Footwear,603.58,1042.79
+143,Everyday Sneaker,Footwear,1018.46,1921.2
+144,Premium Loafer,Footwear,2348.18,4564.53
+145,Essential Sneaker,Footwear,2172.83,4081.17
+146,Pro Boot,Footwear,1180.18,1748.38
+147,Classic Running Shoe,Footwear,2469.56,4302.38
+148,Classic Sneaker,Footwear,845.93,1529.5
+149,Comfort Running Shoe,Footwear,1156.53,2072.57
+150,Classic Loafer,Footwear,2531.93,3674.25
